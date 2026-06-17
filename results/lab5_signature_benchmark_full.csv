@@ -1,0 +1,15 @@
+category,algorithm,size_label,bytes,operation,runs,mean_ms,throughput_mib_s,signature_size_bytes
+keygen,ecdsa-p256,none,0,keygen,10,119.271,0.00,0
+keygen,rsa-pss-3072,none,0,keygen,10,175.487,0.00,0
+signverify,ecdsa-p256,1KiB,1024,sign,30,124.009,0.01,71
+signverify,ecdsa-p256,1KiB,1024,verify,30,124.131,0.01,71
+signverify,rsa-pss-3072,1KiB,1024,sign,30,129.280,0.01,384
+signverify,rsa-pss-3072,1KiB,1024,verify,30,123.313,0.01,384
+signverify,ecdsa-p256,1MiB,1048576,sign,30,127.329,7.85,70
+signverify,ecdsa-p256,1MiB,1048576,verify,30,120.708,8.28,70
+signverify,rsa-pss-3072,1MiB,1048576,sign,30,114.144,8.76,384
+signverify,rsa-pss-3072,1MiB,1048576,verify,30,115.869,8.63,384
+signverify,ecdsa-p256,8MiB,8388608,sign,30,335.950,23.81,70
+signverify,ecdsa-p256,8MiB,8388608,verify,30,335.062,23.88,70
+signverify,rsa-pss-3072,8MiB,8388608,sign,30,327.076,24.46,384
+signverify,rsa-pss-3072,8MiB,8388608,verify,30,321.596,24.88,384
